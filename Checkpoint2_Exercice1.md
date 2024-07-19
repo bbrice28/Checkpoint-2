@@ -31,7 +31,8 @@ Je vois sur mon serveur manager que le DHCP est activé.
 
 Sur le client, je vais dans les paramètres réseaux, je clique sur "propriétés" sur mon interface Ethernet, et je switch en "Automatique (DHCP)".
 
-<img width="468" alt="Capture d’écran 2024-07-19 à 09 47 53" src="https://github.com/user-attachments/assets/4e0207a6-f0ba-4775-9012-f1e38b47916e">
+<img width="320" alt="Capture d’écran 2024-07-19 à 12 22 42" src="https://github.com/user-attachments/assets/4facdb88-84a3-46e1-93c0-e83ba9119fda">
+
 
 Je fais un `ipconfig` sur le client et j’obtiens une nouvelle adresse IPv4 : 172.16.10.20.
 
