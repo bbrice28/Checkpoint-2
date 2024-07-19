@@ -102,6 +102,18 @@ Start-Sleep
 #Q2.4
 #L’option “WindowsStyle Maximized” permet d’ouvrir la fenêtre en grand écran.
 
+#Q2.5
+#L’option “select object” est en “skip 2”, soit “commencer la lecture du fichier à la ligne 3”. Il faudrait le modifier en “skip 1” pour qu’il prenne en compte le premier nom, soit la ligne 2.
+
+#Q2.9
+#Il faut importer la fonction avec “Import-Module “C:\Scripts\Functions.psm1” .
+#Puis, Option 1, à l’issue du script appeler cette fonction Log en y ajoutant un message.
+#Ou, Option 2, Appeler la fonction log Étape par étape dans le script.
+# Je pars sur l'option 1 dans le script.
+
+#Q2.11
+#Je ne sais pas comment faire autrement que la manière déjà présente dans le script.
+
 
 #Q2.16
 #Il permet à powershell de comprendre que les accents et majuscules dans les cellules du CSV font partie des paramètres et non un commande powershell.
